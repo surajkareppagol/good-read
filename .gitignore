@@ -1,0 +1,6 @@
+# Ignore VSCode generated directories
+.vscode
+.vscode/*
+
+# Ignore packed extension
+build/
