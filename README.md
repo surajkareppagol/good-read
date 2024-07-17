@@ -23,6 +23,8 @@ good-read
 - Remove the footer
 - Click on `Read More` button automatically
 
+For extension installation steps please read this [StackExchange](https://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system) post.
+
 ## Next update
 
 - Increase/decrease the font-size
