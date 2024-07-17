@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Good Read",
+  "description": "Good Read - Distraction free read",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "public/good-read-logo.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "src/index.js"
+      ],
+      "matches": [
+        "https://www.geeksforgeeks.org/*"
+      ]
+    }
+  ]
+}
