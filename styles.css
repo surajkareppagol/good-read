@@ -1,0 +1,15 @@
+/* Styles for GFG page */
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-button {
+  bottom: 4% !important;
+  right: calc(6% - 20px) !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 2rem !important;
+}
