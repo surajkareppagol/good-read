@@ -9,12 +9,9 @@
   },
   "content_scripts": [
     {
-      "js": [
-        "src/index.js"
-      ],
-      "matches": [
-        "https://www.geeksforgeeks.org/*"
-      ]
+      "js": ["src/index.js"],
+      "css": ["styles.css"],
+      "matches": ["https://www.geeksforgeeks.org/*"]
     }
   ]
 }
